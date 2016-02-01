@@ -1,0 +1,27 @@
+{
+  "name": "techtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server --port 1288",
+    "start": " \"npm run lite\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  	"bootstrap": "^3.3.6",
+  	"jquery": "2.2.0",
+  	"underscore": "1.8.3",
+    "JSON2": "0.1.0",
+    "backbone": "1.2.3",
+    "backbone.marionette": "2.4.4",
+    "backbone-relational":"0.10.0",
+    "backbone.syphon": "0.6.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}

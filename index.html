@@ -1,0 +1,59 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Marionette Contact Manager</title>
+	</head>
+	
+	<body>
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+    			<div class="navbar-header">
+    				<a class="navbar-brand" href="#">Pablo's Application</a>
+    			</div>
+    		</div>
+    	</nav>
+		
+		<div id="app-container">
+			<div id="header-region"></div>
+			<div id="main-region" class="container">
+				Loading...
+			</div>
+			<div id="dialog-region"></div>
+		</div>
+		
+		<script src="./node_modules/jquery/dist/jquery.js"></script>
+		<script src="./node_modules/JSON2/json2.js"></script>
+		<script src="./node_modules/underscore/underscore.js"></script>
+		<script src="./node_modules/backbone/backbone.js"></script>
+		<script src="./node_modules/backbone-relational/backbone-relational.js"></script>
+		<script src="./node_modules/backbone.marionette/lib/backbone.marionette.js"></script>
+		<script src="./node_modules/backbone.syphon/lib/backbone.syphon.js"></script>
+
+		<script src="./app/scr/config/templateCache.js"></script>
+
+		<script src="./app/scr/app.js"></script>
+		<script src="./app/scr/entities/colour.js"></script>
+		<script src="./app/scr/entities/person.js"></script>
+
+		<script src="./app/scr/people/peopleApp.js"></script>
+		
+		<script src="./app/scr/people/list/peopleListTemplates.js"></script>
+		<script src="./app/scr/people/list/peopleListView.js"></script>
+		<script src="./app/scr/people/list/peopleListController.js"></script>
+
+		<script src="./app/scr/people/edit/peopleEditTemplates.js"></script>
+		<script src="./app/scr/people/edit/peopleEditView.js"></script>
+		<script src="./app/scr/people/edit/peopleEditController.js"></script>
+
+		<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="./app/styles/application.css">
+
+		<script>
+			App.start();
+		</script>
+
+		
+
+	</body>
+</html>

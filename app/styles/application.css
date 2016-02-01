@@ -1,0 +1,24 @@
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+button.btn.pull-right,
+a.btn.pull-right {
+	margin-left: 5px;
+}
+
+.divider {
+	margin-top: 10px; margin-bottom: 10px;
+}
+
+.control-label {
+	margin-left: 25px;
+}
+
+input.form-item {
+	margin-left: 5px;
+}
