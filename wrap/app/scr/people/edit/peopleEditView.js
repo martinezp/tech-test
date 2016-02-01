@@ -37,4 +37,8 @@ App.module("PeopleApp.Edit", function(Edit, App, Backbone, Marionette, $, _) {
         }
     });
 
+    Edit.NoPersonView = Marionette.ItemView.extend({
+        template: "App.PeopleApp.Edit.Templates.NoPerson",
+    });
+
 });

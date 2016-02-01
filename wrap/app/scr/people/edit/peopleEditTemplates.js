@@ -40,4 +40,15 @@ App.module("PeopleApp.Edit.Templates", function(Templates, App, Backbone, Marion
 		</form>
 	`;
 
+	Templates.NoPerson = `
+		<form>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">No person available.</h3>
+				</div>
+				<div class="panel-body"></div>
+			</div>
+		</form>
+	`;
+
 });

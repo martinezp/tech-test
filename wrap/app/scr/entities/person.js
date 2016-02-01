@@ -23,7 +23,8 @@ App.module("Entities", function(Entities, App, Backbone, Marionette, $, _, Relat
 			var person = Entities.Person.findOrCreate({id : personId});
 			var defer = $.Deferred();
 			person.fetch({
-				success: data => { defer.resolve(data); }
+				success: data => { defer.resolve(data); },
+        		error: data => { defer.resolve(undefined); }
 			});
 			return defer.promise();
 		},
